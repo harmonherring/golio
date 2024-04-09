@@ -568,6 +568,7 @@ type GameInfo struct {
 	Participants      []*CurrentGameParticipant `json:"participants"`
 	GameLength        int                       `json:"gameLength"`
 	GameQueueConfigID int                       `json:"gameQueueConfigId"`
+	PUUID             string                    `json:"puuid"`
 }
 
 // GetMatch returns information about the finished match
